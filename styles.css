@@ -1,0 +1,125 @@
+/* RESET   */
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+button{
+    border: initial;
+    background-color: initial;
+    color: inherit;
+
+}
+
+.app{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    color: rgb(27, 26, 26);
+    background-color: rgb(7, 6, 6);
+}
+
+/* STYLES   */
+.header{
+    background-color: rgb(14, 12, 12);
+    color: rgba(255,255,255,0.5);
+    height: 55px;
+    display: flex;
+}
+@media(max-width: 600px){
+    .header{
+       margin-top: -60px;
+
+    }
+}
+
+.logo{
+align-self: center;
+margin-right: auto;
+}
+
+.dd-toggle{
+    padding: 0 13px;
+    transition: all 0.4s;
+   
+}
+.dd-toggle:hover{
+    color: white;
+    background-color: rgba(255,255,255,0.2);
+    cursor: pointer;
+}
+
+/* MAIN   */
+.hero{
+    background-image: url(./images/snowflake.jpg);
+    color: rgba(255,255,255,0.6);
+    height: 90vh;
+    width: 100%;
+    
+    object-fit: cover;
+    display: flex;
+    padding: 70px;
+
+    
+    
+}
+@media( max-width: 600px){
+    .hero{
+        padding: 0;
+    }
+}
+
+.title{
+   flex: 4;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   padding: 50px 0;
+  
+}
+.title button:hover{
+    color: white;
+    background-color: rgba(255,255,255,0.2);
+    cursor: pointer;
+    margin: 0;
+}
+
+.title h1{
+    margin-left:15px;
+}
+.title h3{
+    margin: 10px 0 40px 20px;
+}
+.title button{
+    padding: 10px
+}
+.profile{
+    flex: 10;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+   
+}
+.profile img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    opacity: 0.8;
+    margin: 40px 0;
+}
+.profile button{
+    margin-top: 50px;
+}
+
+.profile button:hover{
+    color: white;
+    background-color: rgba(255,255,255,0.2);
+    cursor: pointer;
+    margin: 0;
+}
+
+
