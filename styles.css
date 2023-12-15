@@ -128,11 +128,10 @@ margin-right: auto;
     padding: 7px 20px;
     text-transform: uppercase;
     transition: all 0.4s;
-    color: #C6C5C7;
-    background-color: #1F2833;
+    border: 2px solid #66FCF1;
     border-radius: 5px;
     font-weight: 900;
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
 }
 
 .hero-btn:hover {
@@ -196,14 +195,14 @@ margin-right: auto;
 }
 
 .about-me {
-    background-color: #66FCF1;
-    height: 65.6vh;
+    background-color: #a6c7ee;
+    height: 50.6vh;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color: #05080a;
-    border-radius: 40px 9px;
+    color: #040c0c;
+    border-radius: 40px 400px;
     padding: 0 4rem;
     text-align: center;
     display: flex;
